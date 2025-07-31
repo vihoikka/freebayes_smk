@@ -8,32 +8,6 @@ chunks_per_chrom: 2
 bam_list: bam_mtDNA.list
 
 chroms:
-  - chromosome_2
-  - chromosome_3
-  - chromosome_1
-  - chromosome_4
-  - chromosome_5
-  - chromosome_10
-  - chromosome_7
-  - chromosome_8
-  - chromosome_13
-  - chromosome_25
-  - chromosome_16
-  - chromosome_6
-  - chromosome_15
-  - chromosome_11
-  - chromosome_17
-  - chromosome_9
-  - chromosome_12
-  - chromosome_21
-  - chromosome_26
-  - chromosome_20
-  - chromosome_14
-  - chromosome_18
-  - chromosome_27
-  - chromosome_19
-  - chromosome_24
-  - chromosome_22
   - mtDNA
 
 samples: # Full version

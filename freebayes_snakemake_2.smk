@@ -70,7 +70,7 @@ rule ConcatVCFs:
     input:
         calls = expand("results/variants/vcfs/{{chrom}}/variants.{i}.vcf", i=chunks)
     output:
-        "results/variants/vcfs/variants.{chrom}.vcf"
+        output_folder + "results/variants/vcfs/variants.{chrom}.vcf"
     log:
         "logs/ConcatVCFs/{chrom}.log"
     conda:
