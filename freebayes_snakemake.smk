@@ -8,9 +8,11 @@
 
 # Example run command: snakemake --snakefile freebayes_snakemake.smk --configfile config_mtDNA.yaml --cores 60 --use-envmodules
 
+path_prefix = "../"
 samples = config["samples"]
-samples_folder = config["samples_folder"]
-reference = config["path_to_reference"]
+samples_folder = path_prefix + config["samples_folder"]
+reference = path_prefix + config["path_to_reference"]
+reference_fai = reference + ".fai"
 output_folder = config["output_folder"]
 chroms = config["chroms"]
 nchunks = config.get("chunks_per_chrom", 20)  # More reasonable default
@@ -22,24 +24,11 @@ rule all:
     input:
         expand(output_folder + "/results/variants/vcfs/variants.{chrom}.vcf", chrom=chroms)
 
-rule GenomeIndex:
-    input:
-        ref = reference
-    output:
-        idx = reference + ".fai"
-    log: 
-        "logs/GenomeIndex.log"
-    envmodules:
-        "freebayes",
-        "biokit"
-    wrapper: 
-        "v0.69.0/bio/samtools/faidx"
-
 
 rule GenerateFreebayesRegions:
     input:
         ref_idx = reference,
-        index = reference + ".fai"
+        index = reference_fai
     output:
         expand(output_folder + "/resources/regions/genome.{{chrom}}.region.{i}.bed", i=chunks)
     log:
@@ -68,7 +57,7 @@ rule VariantCallingFreebayes:
         bams = expand(samples_folder + "/{sample}.bam", sample=samples),
         index = expand(samples_folder + "/{sample}.bam.bai", sample=samples),
         ref = reference,
-        ref_idx = reference + ".fai",
+        ref_idx = reference_fai,
         region = output_folder + "/resources/regions/genome.{chrom}.region.{i}.bed"
     output:
         temp(output_folder + "/results/variants/vcfs/{chrom}/variants.{i}.vcf")
