@@ -31,7 +31,7 @@ rule GenerateFreebayesRegions:
         index = reference_fai,
         bams = expand(samples_folder + "/{sample}.bam", sample=samples)
     output:
-        regions = expand(output_folder + "/resources/regions/genome.{chrom}.region.{i}.bed", chrom=chroms, i = chunks)
+        regions = expand(output_folder + "/regions/genome.{chrom}.region.{i}.bed", chrom=chroms, i = chunks)
     log:
         "logs/GenerateFreebayesRegions.log"
     params:
@@ -49,13 +49,13 @@ rule GenerateFreebayesRegions:
 
 rule VariantCallingFreebayes:
     input:
-        bams = expand(output_folder + "/resources/alignments/{sample}.bam", sample=samples),
-        index = expand(output_folder + "/resources/alignments/{sample}.bam.bai", sample=samples),
+        bams = expand(samples_folder + "/{sample}.bam", sample=samples),
+        index = expand(samples_folder + "/{sample}.bam.bai", sample=samples),
         ref = reference,
         samples = bamlist,
-        regions = expand(output_folder + "/resources/regions/genome.{chrom}.region.{i}.bed", chrom=chroms, i=chunks)
+        regions = expand(output_folder + "/regions/genome.{chrom}.region.{i}.bed", chrom=chroms, i=chunks)
     output:
-        temp("results/variants/vcfs/{chrom}/variants.{i}.vcf")
+        output_folder + "/results/variants/vcfs/{chrom}/variants.{i}.vcf"
     log:
         "logs/VariantCallingFreebayes/{chrom}.{i}.log"
     conda:
