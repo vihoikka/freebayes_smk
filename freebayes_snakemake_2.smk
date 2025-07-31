@@ -65,7 +65,7 @@ rule VariantCallingFreebayes:
     log:
         "logs/VariantCallingFreebayes/{chrom}.{i}.log"
     threads:1
-    shell:	"{params.freebayes_path} --no-population-priors --genotype-qualities --use-mapping-quality --use-best-n-alleles 2 -f {input.ref} -t {input.regions} -L {input.samples} > {output} 2> {log}"
+    shell:	"{params.freebayes_path} -f {input.ref} -t {input.regions} -L {input.samples} > {output} 2> {log}"
 
 
 rule ConcatVCFs:
