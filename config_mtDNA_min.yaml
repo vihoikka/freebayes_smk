@@ -7,6 +7,8 @@ chunks_per_chrom: 5
 
 bam_list: bam_mtDNA_min.list
 
+freebayes_path: /projappl/project_2007833/freebayes_v1.3.10
+
 chroms:
   - mtDNA
 

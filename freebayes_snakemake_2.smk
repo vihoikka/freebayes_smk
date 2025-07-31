@@ -17,6 +17,8 @@ output_folder = config["output_folder"]
 chroms = config["chroms"]
 nchunks = config.get("chunks_per_chrom", 20)  # More reasonable default
 
+freebayes_path = config.get("freebayes_path", "freebayes")  # Default to 'freebayes' if not specified
+
 bamlist = config["bam_list"]
 chunks = list(range(1, nchunks + 1))
 
@@ -58,12 +60,12 @@ rule VariantCallingFreebayes:
         regions = expand(output_folder + "/regions/genome.{chrom}.region.{i}.bed", chrom=chroms, i=chunks)
     output:
         output_folder + "/results/variants/vcfs/{chrom}/variants.{i}.vcf"
+    params:
+        freebayes_path = freebayes_path
     log:
         "logs/VariantCallingFreebayes/{chrom}.{i}.log"
-    envmodules:
-        "freebayes/1.3.8"
     threads:1
-    shell:	"freebayes --no-population-priors --genotype-qualities --use-mapping-quality --use-best-n-alleles 2 -f {input.ref} -t {input.regions} -L {input.samples} > {output} 2> {log}"
+    shell:	"{params.freebayes_path} --no-population-priors --genotype-qualities --use-mapping-quality --use-best-n-alleles 2 -f {input.ref} -t {input.regions} -L {input.samples} > {output} 2> {log}"
 
 
 rule ConcatVCFs:
