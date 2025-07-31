@@ -3,7 +3,7 @@
 path_to_reference: Frufa_DTOL.ref_genome.unmasked.mtDNA.fa # mtDNA version
 samples_folder: 2_mapping
 output_folder: results_mtDNA_310725
-chunks_per_chrom: 5
+chunks_per_chrom: 2
 
 bam_list: bam_mtDNA_min_min.list
 
