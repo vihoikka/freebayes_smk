@@ -8,15 +8,21 @@
 
 # Example run command: snakemake --snakefile freebayes_snakemake.smk --configfile config_mtDNA.yaml --cores 60 --use-envmodules
 
+path_prefix = "../"
 samples = config["samples"]
-samples_folder = config["samples_folder"]
-reference = config["path_to_reference"]
+samples_folder = path_prefix + config["samples_folder"]
+reference = path_prefix + config["path_to_reference"]
+reference_fai = reference + ".fai"
 output_folder = config["output_folder"]
 chroms = config["chroms"]
-nchunks = config.get("chunks_per_chrom", 10)
+nchunks = config.get("chunks_per_chrom", 20)  # More reasonable default
 
 bamlist = config["bam_list"]
-chunks = list(range(1,nchunks+1))
+chunks = list(range(1, nchunks + 1))
+
+rule all:
+    input:
+        expand(output_folder + "/results/variants/vcfs/variants.{chrom}.vcf", chrom=chroms)
 
 rule GenomeIndex:
     input:
@@ -51,7 +57,7 @@ rule GenerateFreebayesRegions:
         "biokit"
     script:
         # "../scripts/GenerateFreebayesRegions.R" # This is located in the scripts/ directory of freebayes
-        "fasta_generate_regions.py --chunks --bed resources/regions/genome --chromosome {params.chroms} {input.index} {params.chunks}"
+        "python fasta_generate_regions.py --chunks --bed resources/regions/genome --chromosome {params.chroms} {input.index} {params.chunks} 2> {log}"
 
 
 rule VariantCallingFreebayes:
