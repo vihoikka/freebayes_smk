@@ -37,8 +37,6 @@ rule GenerateFreebayesRegions:
     params:
         chroms = chroms,
         chunks = chunks
-    conda:
-        "../envs/freebayes-env.yaml"
     envmodules:
         "freebayes",
         "biokit"
@@ -58,8 +56,6 @@ rule VariantCallingFreebayes:
         output_folder + "/results/variants/vcfs/{chrom}/variants.{i}.vcf"
     log:
         "logs/VariantCallingFreebayes/{chrom}.{i}.log"
-    conda:
-        "../envs/freebayes-env.yaml"
     envmodules:
         "freebayes",
         "biokit"
@@ -74,8 +70,6 @@ rule ConcatVCFs:
         output_folder + "/results/variants/vcfs/variants.{chrom}.vcf"
     log:
         "logs/ConcatVCFs/{chrom}.log"
-    conda:
-        "../envs/freebayes-env.yaml"
     envmodules:
         "freebayes",
         "biokit"
