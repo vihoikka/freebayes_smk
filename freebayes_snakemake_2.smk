@@ -61,8 +61,7 @@ rule VariantCallingFreebayes:
     log:
         "logs/VariantCallingFreebayes/{chrom}.{i}.log"
     envmodules:
-        "freebayes",
-        "biokit"
+        "freebayes"
     threads:1
     shell:	"freebayes --no-population-priors --genotype-qualities --use-mapping-quality --use-best-n-alleles 2 -f {input.ref} -t {input.regions} -L {input.samples} > {output} 2> {log}"
 
