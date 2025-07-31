@@ -1,0 +1,15 @@
+# Configuration for FreeBayes Snakemake pipeline on CSC Puhti
+
+path_to_reference: Frufa_DTOL.ref_genome.unmasked.mtDNA.fa # mtDNA version
+samples_folder: 2_mapping
+output_folder: results_mtDNA_310725
+chunks_per_chrom: 5
+
+bam_list: bam_mtDNA_min.list
+
+chroms:
+  - mtDNA
+
+samples: # Full version
+  - H_120_k.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA
+  - H_121_a.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA
