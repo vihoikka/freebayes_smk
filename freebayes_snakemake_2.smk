@@ -24,24 +24,10 @@ rule all:
     input:
         expand(output_folder + "/results/variants/vcfs/variants.{chrom}.vcf", chrom=chroms)
 
-rule GenomeIndex:
-    input:
-        ref = reference
-    output:
-        idx = reference + ".fai"
-    log: 
-        "logs/GenomeIndex.log"
-    envmodules:
-        "freebayes",
-        "biokit"
-    wrapper: 
-        "v0.69.0/bio/samtools/faidx"
-
-
 rule GenerateFreebayesRegions:
     input:
         ref_idx = reference,
-        index = reference + ".fai",
+        index = reference_fai,
         bams = expand(samples_folder + "/{sample}.bam", sample=samples)
     output:
         regions = expand(output_folder + "/resources/regions/genome.{chrom}.region.{i}.bed", chrom=chroms, i = chunks)
@@ -57,7 +43,7 @@ rule GenerateFreebayesRegions:
         "biokit"
     script:
         # "../scripts/GenerateFreebayesRegions.R" # This is located in the scripts/ directory of freebayes
-        "python fasta_generate_regions.py --chunks --bed resources/regions/genome --chromosome {params.chroms} {input.index} {params.chunks} 2> {log}"
+        "python fasta_generate_regions.py --chunks --bed resources/regions/genome --chromosome {params.chroms} --fai {input.index} {params.chunks} 2> {log}"
 
 
 rule VariantCallingFreebayes:
