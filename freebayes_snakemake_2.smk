@@ -24,6 +24,7 @@ rule all:
     input:
         expand(output_folder + "/results/variants/vcfs/variants.{chrom}.vcf", chrom=chroms)
 
+
 rule GenerateFreebayesRegions:
     input:
         ref_idx = reference,
@@ -43,7 +44,7 @@ rule GenerateFreebayesRegions:
         "biokit"
     script:
         # "../scripts/GenerateFreebayesRegions.R" # This is located in the scripts/ directory of freebayes
-        "python fasta_generate_regions.py --chunks --bed resources/regions/genome --chromosome {params.chroms} --fai {input.index} {params.chunks} 2> {log}"
+        "python fasta_generate_regions.py --chunks --bed resources/regions/genome --chromosomes {params.chroms} --fai {input.index} {params.chunks} 2> {log}"
 
 
 rule VariantCallingFreebayes:
@@ -70,7 +71,7 @@ rule ConcatVCFs:
     input:
         calls = expand("results/variants/vcfs/{{chrom}}/variants.{i}.vcf", i=chunks)
     output:
-        output_folder + "results/variants/vcfs/variants.{chrom}.vcf"
+        output_folder + "/results/variants/vcfs/variants.{chrom}.vcf"
     log:
         "logs/ConcatVCFs/{chrom}.log"
     conda:
