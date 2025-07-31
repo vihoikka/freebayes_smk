@@ -69,7 +69,7 @@ rule VariantCallingFreebayes:
 
 rule ConcatVCFs:
     input:
-        calls = expand("results/variants/vcfs/{{chrom}}/variants.{i}.vcf", i=chunks)
+        calls = expand(output_folder + "/results/variants/vcfs/{{chrom}}/variants.{i}.vcf", i=chunks)
     output:
         output_folder + "/results/variants/vcfs/variants.{chrom}.vcf"
     log:
