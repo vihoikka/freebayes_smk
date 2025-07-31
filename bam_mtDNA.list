@@ -1,184 +1,184 @@
-  2_mapping/H_120_k.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
-  2_mapping/H_121_a.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
-  2_mapping/H_121_b.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
-  2_mapping/H_121_c.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
-  2_mapping/H_122_a.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
-  2_mapping/H_122_b.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
-  2_mapping/H_122_d.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
-  2_mapping/H_122_f.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
-  2_mapping/H_122_g.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
-  2_mapping/H_122_h.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
-  2_mapping/H_13_a.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
-  2_mapping/H_13_b.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
-  2_mapping/H_13_c.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
-  2_mapping/H_13_d.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
-  2_mapping/H_13_e.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
-  2_mapping/H_13_f.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
-  2_mapping/H_13_g.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
-  2_mapping/H_13_h.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
-  2_mapping/H_13_i.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
-  2_mapping/H_13_k.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
-  2_mapping/H_131_f.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
-  2_mapping/H_131_g.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
-  2_mapping/H_131_k.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
-  2_mapping/H_133_a.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
-  2_mapping/H_133_b.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
-  2_mapping/H_133_c.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
-  2_mapping/H_133_d.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
-  2_mapping/H_159_e.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
-  2_mapping/H_159_g.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
-  2_mapping/H_159_h.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
-  2_mapping/H_159_j.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
-  2_mapping/H_159_k.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
-  2_mapping/H_160_a.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
-  2_mapping/H_160_b.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
-  2_mapping/H_160_c.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
-  2_mapping/H_160_d.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
-  2_mapping/H_160_e.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
-  2_mapping/H_195_c.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
-  2_mapping/H_195_d.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
-  2_mapping/H_195_k.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
-  2_mapping/H_22_a.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
-  2_mapping/H_22_b.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
-  2_mapping/H_22_k.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
-  2_mapping/H_23_a.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
-  2_mapping/H_23_b.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
-  2_mapping/H_23_c.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
-  2_mapping/H_24_a.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
-  2_mapping/H_24_b.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
-  2_mapping/H_24_c.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
-  2_mapping/H_24_d.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
-  2_mapping/H_251_a.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
-  2_mapping/H_251_b.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
-  2_mapping/H_251_c.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
-  2_mapping/H_251_d.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
-  2_mapping/H_251_e.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
-  2_mapping/H_251_f.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
-  2_mapping/H_251_g.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
-  2_mapping/H_251_h.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
-  2_mapping/H_251_j.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
-  2_mapping/H_251_k.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
-  2_mapping/H_267_a.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
-  2_mapping/H_267_b.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
-  2_mapping/H_267_k.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
-  2_mapping/H_268_a.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
-  2_mapping/H_268_b.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
-  2_mapping/H_268_c.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
-  2_mapping/H_268_d.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
-  2_mapping/H_269_a.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
-  2_mapping/H_269_b.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
-  2_mapping/H_269_c.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
-  2_mapping/H_29_a.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
-  2_mapping/H_29_b.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
-  2_mapping/H_29_c.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
-  2_mapping/H_29_d.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
-  2_mapping/H_29_e.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
-  2_mapping/H_30_a.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
-  2_mapping/H_30_b.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
-  2_mapping/H_30_d.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
-  2_mapping/H_30_f.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
-  2_mapping/H_30_k.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
-  2_mapping/H_338_a.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
-  2_mapping/H_338_b.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
-  2_mapping/H_338_c.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
-  2_mapping/H_338_d.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
-  2_mapping/H_338_k.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
-  2_mapping/H_405_a.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
-  2_mapping/H_405_b.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
-  2_mapping/H_405_c.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
-  2_mapping/H_405_d.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
-  2_mapping/H_406_a.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
-  2_mapping/H_406_b.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
-  2_mapping/H_406_k.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
-  2_mapping/H_407_a.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
-  2_mapping/H_407_b.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
-  2_mapping/H_407_c.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
-  2_mapping/H_41_a.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
-  2_mapping/H_41_b.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
-  2_mapping/H_41_c.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
-  2_mapping/H_42_a.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
-  2_mapping/H_42_b.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
-  2_mapping/H_42_k.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
-  2_mapping/H_43_a.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
-  2_mapping/H_43_b.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
-  2_mapping/H_43_c.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
-  2_mapping/H_43_d.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
-  2_mapping/H_44_b.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
-  2_mapping/H_44_c.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
-  2_mapping/H_44_d.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
-  2_mapping/H_44_e.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
-  2_mapping/H_44_f.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
-  2_mapping/H_44_g.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
-  2_mapping/H_44_h.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
-  2_mapping/H_44_i.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
-  2_mapping/H_44_j.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
-  2_mapping/H_44_k.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
-  2_mapping/H_63_a.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
-  2_mapping/H_63_b.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
-  2_mapping/H_63_c.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
-  2_mapping/H_63_k.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
-  2_mapping/H_64_a.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
-  2_mapping/H_64_b.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
-  2_mapping/H_65_a.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
-  2_mapping/H_65_c.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
-  2_mapping/H_65_d.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
-  2_mapping/H_74_c.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
-  2_mapping/H_74_d.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
-  2_mapping/H_74_e.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
-  2_mapping/H_74_f.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
-  2_mapping/H_74_k.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
-  2_mapping/H_75_a.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
-  2_mapping/H_75_b.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
-  2_mapping/H_75_c.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
-  2_mapping/H_75_d.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
-  2_mapping/H_75_e.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
-  2_mapping/H_84_a.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
-  2_mapping/H_84_b.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
-  2_mapping/H_84_k.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
-  2_mapping/H_85_a.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
-  2_mapping/H_85_b.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
-  2_mapping/H_85_c.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
-  2_mapping/H_90_b.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
-  2_mapping/H_90_k.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
-  2_mapping/H_91_a.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
-  2_mapping/H_91_b.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
-  2_mapping/H_91_c.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
-  2_mapping/Frufa.12.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
-  2_mapping/Frufa.16.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
-  2_mapping/Frufa.26.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
-  2_mapping/Frufa.37.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
-  2_mapping/Frufa.72.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
-  2_mapping/Frufa.102.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
-  2_mapping/Fprat.2.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
-  2_mapping/Fprat.3.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
-  2_mapping/Fprat.6.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
-  2_mapping/Fprat.117.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
-  2_mapping/Fprat.120.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
-  2_mapping/Fprat.122.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
-  2_mapping/Fprat.123.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
-  2_mapping/Fpol.CBCH1.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
-  2_mapping/Fpol.CBCH2.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
-  2_mapping/Fpol.CBCH3.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
-  2_mapping/Flug.11.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
-  2_mapping/Flug.56.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
-  2_mapping/Flug.88.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
-  2_mapping/Flug.108.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
-  2_mapping/Flug.113.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
-  2_mapping/Flug.115.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
-  2_mapping/Flug.124.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
-  2_mapping/Faqu.70.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
-  2_mapping/Faqu.67.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
-  2_mapping/Faqu.103.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
-  2_mapping/Faqu.107.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
-  2_mapping/Fpol.NAZa.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
-  2_mapping/Fpol.CAGa.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
-  2_mapping/Fpol.VDa.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
-  2_mapping/Flug.1.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
-  2_mapping/Faqu.CBAQ2.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
-  2_mapping/Faqu.Lai.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
-  2_mapping/Faqu.Loa.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
-  2_mapping/Faqu.30.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
-  2_mapping/Faqu.31.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
-  2_mapping/Faqu.22.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
-  2_mapping/Faqu.109.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
-  2_mapping/Faqu.CBAQ1.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
+../2_mapping/H_120_k.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
+../2_mapping/H_121_a.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
+../2_mapping/H_121_b.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
+../2_mapping/H_121_c.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
+../2_mapping/H_122_a.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
+../2_mapping/H_122_b.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
+../2_mapping/H_122_d.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
+../2_mapping/H_122_f.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
+../2_mapping/H_122_g.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
+../2_mapping/H_122_h.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
+../2_mapping/H_13_a.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
+../2_mapping/H_13_b.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
+../2_mapping/H_13_c.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
+../2_mapping/H_13_d.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
+../2_mapping/H_13_e.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
+../2_mapping/H_13_f.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
+../2_mapping/H_13_g.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
+../2_mapping/H_13_h.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
+../2_mapping/H_13_i.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
+../2_mapping/H_13_k.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
+../2_mapping/H_131_f.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
+../2_mapping/H_131_g.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
+../2_mapping/H_131_k.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
+../2_mapping/H_133_a.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
+../2_mapping/H_133_b.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
+../2_mapping/H_133_c.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
+../2_mapping/H_133_d.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
+../2_mapping/H_159_e.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
+../2_mapping/H_159_g.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
+../2_mapping/H_159_h.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
+../2_mapping/H_159_j.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
+../2_mapping/H_159_k.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
+../2_mapping/H_160_a.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
+../2_mapping/H_160_b.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
+../2_mapping/H_160_c.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
+../2_mapping/H_160_d.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
+../2_mapping/H_160_e.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
+../2_mapping/H_195_c.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
+../2_mapping/H_195_d.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
+../2_mapping/H_195_k.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
+../2_mapping/H_22_a.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
+../2_mapping/H_22_b.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
+../2_mapping/H_22_k.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
+../2_mapping/H_23_a.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
+../2_mapping/H_23_b.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
+../2_mapping/H_23_c.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
+../2_mapping/H_24_a.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
+../2_mapping/H_24_b.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
+../2_mapping/H_24_c.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
+../2_mapping/H_24_d.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
+../2_mapping/H_251_a.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
+../2_mapping/H_251_b.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
+../2_mapping/H_251_c.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
+../2_mapping/H_251_d.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
+../2_mapping/H_251_e.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
+../2_mapping/H_251_f.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
+../2_mapping/H_251_g.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
+../2_mapping/H_251_h.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
+../2_mapping/H_251_j.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
+../2_mapping/H_251_k.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
+../2_mapping/H_267_a.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
+../2_mapping/H_267_b.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
+../2_mapping/H_267_k.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
+../2_mapping/H_268_a.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
+../2_mapping/H_268_b.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
+../2_mapping/H_268_c.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
+../2_mapping/H_268_d.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
+../2_mapping/H_269_a.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
+../2_mapping/H_269_b.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
+../2_mapping/H_269_c.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
+../2_mapping/H_29_a.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
+../2_mapping/H_29_b.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
+../2_mapping/H_29_c.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
+../2_mapping/H_29_d.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
+../2_mapping/H_29_e.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
+../2_mapping/H_30_a.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
+../2_mapping/H_30_b.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
+../2_mapping/H_30_d.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
+../2_mapping/H_30_f.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
+../2_mapping/H_30_k.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
+../2_mapping/H_338_a.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
+../2_mapping/H_338_b.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
+../2_mapping/H_338_c.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
+../2_mapping/H_338_d.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
+../2_mapping/H_338_k.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
+../2_mapping/H_405_a.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
+../2_mapping/H_405_b.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
+../2_mapping/H_405_c.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
+../2_mapping/H_405_d.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
+../2_mapping/H_406_a.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
+../2_mapping/H_406_b.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
+../2_mapping/H_406_k.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
+../2_mapping/H_407_a.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
+../2_mapping/H_407_b.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
+../2_mapping/H_407_c.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
+../2_mapping/H_41_a.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
+../2_mapping/H_41_b.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
+../2_mapping/H_41_c.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
+../2_mapping/H_42_a.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
+../2_mapping/H_42_b.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
+../2_mapping/H_42_k.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
+../2_mapping/H_43_a.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
+../2_mapping/H_43_b.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
+../2_mapping/H_43_c.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
+../2_mapping/H_43_d.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
+../2_mapping/H_44_b.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
+../2_mapping/H_44_c.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
+../2_mapping/H_44_d.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
+../2_mapping/H_44_e.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
+../2_mapping/H_44_f.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
+../2_mapping/H_44_g.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
+../2_mapping/H_44_h.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
+../2_mapping/H_44_i.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
+../2_mapping/H_44_j.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
+../2_mapping/H_44_k.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
+../2_mapping/H_63_a.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
+../2_mapping/H_63_b.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
+../2_mapping/H_63_c.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
+../2_mapping/H_63_k.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
+../2_mapping/H_64_a.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
+../2_mapping/H_64_b.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
+../2_mapping/H_65_a.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
+../2_mapping/H_65_c.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
+../2_mapping/H_65_d.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
+../2_mapping/H_74_c.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
+../2_mapping/H_74_d.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
+../2_mapping/H_74_e.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
+../2_mapping/H_74_f.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
+../2_mapping/H_74_k.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
+../2_mapping/H_75_a.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
+../2_mapping/H_75_b.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
+../2_mapping/H_75_c.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
+../2_mapping/H_75_d.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
+../2_mapping/H_75_e.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
+../2_mapping/H_84_a.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
+../2_mapping/H_84_b.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
+../2_mapping/H_84_k.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
+../2_mapping/H_85_a.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
+../2_mapping/H_85_b.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
+../2_mapping/H_85_c.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
+../2_mapping/H_90_b.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
+../2_mapping/H_90_k.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
+../2_mapping/H_91_a.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
+../2_mapping/H_91_b.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
+../2_mapping/H_91_c.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
+../2_mapping/Frufa.12.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
+../2_mapping/Frufa.16.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
+../2_mapping/Frufa.26.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
+../2_mapping/Frufa.37.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
+../2_mapping/Frufa.72.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
+../2_mapping/Frufa.102.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
+../2_mapping/Fprat.2.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
+../2_mapping/Fprat.3.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
+../2_mapping/Fprat.6.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
+../2_mapping/Fprat.117.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
+../2_mapping/Fprat.120.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
+../2_mapping/Fprat.122.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
+../2_mapping/Fprat.123.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
+../2_mapping/Fpol.CBCH1.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
+../2_mapping/Fpol.CBCH2.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
+../2_mapping/Fpol.CBCH3.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
+../2_mapping/Flug.11.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
+../2_mapping/Flug.56.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
+../2_mapping/Flug.88.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
+../2_mapping/Flug.108.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
+../2_mapping/Flug.113.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
+../2_mapping/Flug.115.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
+../2_mapping/Flug.124.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
+../2_mapping/Faqu.70.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
+../2_mapping/Faqu.67.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
+../2_mapping/Faqu.103.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
+../2_mapping/Faqu.107.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
+../2_mapping/Fpol.NAZa.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
+../2_mapping/Fpol.CAGa.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
+../2_mapping/Fpol.VDa.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
+../2_mapping/Flug.1.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
+../2_mapping/Faqu.CBAQ2.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
+../2_mapping/Faqu.Lai.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
+../2_mapping/Faqu.Loa.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
+../2_mapping/Faqu.30.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
+../2_mapping/Faqu.31.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
+../2_mapping/Faqu.22.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
+../2_mapping/Faqu.109.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
+../2_mapping/Faqu.CBAQ1.vs.Frufa_DTOL.ref_genome.unmasked.MD.mtDNA.bam
