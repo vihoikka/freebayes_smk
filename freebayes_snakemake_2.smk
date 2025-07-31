@@ -43,7 +43,7 @@ rule GenerateFreebayesRegions:
         "biokit"
     shell:
         """
-        python fasta_generate_regions.py --chunks {params.chunks} --bed {params.outfolder} --chromosomes {params.chroms} --fai {input.index} 2> {log}
+        python fasta_generate_regions.py --chunks --bed {params.outfolder} --chromosomes {params.chroms} {input.index} {params.chunks} 2> {log}
         """
 
 
