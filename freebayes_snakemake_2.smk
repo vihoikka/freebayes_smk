@@ -10,7 +10,7 @@
 
 path_prefix = "../"
 samples = config["samples"]
-samples_folder = config["samples_folder"]
+samples_folder = path_prefix + config["samples_folder"]
 reference = path_prefix + config["path_to_reference"]
 reference_fai = reference + ".fai"
 output_folder = config["output_folder"]
