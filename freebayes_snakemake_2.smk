@@ -40,9 +40,10 @@ rule GenerateFreebayesRegions:
     envmodules:
         "freebayes",
         "biokit"
-    script:
-        # "../scripts/GenerateFreebayesRegions.R" # This is located in the scripts/ directory of freebayes
-        "python fasta_generate_regions.py --chunks --bed resources/regions/genome --chromosomes {params.chroms} --fai {input.index} {params.chunks} 2> {log}"
+    shell:
+        """
+        python fasta_generate_regions.py --chunks --bed resources/regions/genome --chromosomes {params.chroms} --fai {input.index} {params.chunks} 2> {log}
+        """
 
 
 rule VariantCallingFreebayes:
