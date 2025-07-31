@@ -5,7 +5,7 @@ samples_folder: 2_mapping
 output_folder: results_mtDNA_310725
 chunks_per_chrom: 5
 
-bam_list: bam_mtDNA_min.list
+bam_list: bam_mtDNA_min_min.list
 
 chroms:
   - mtDNA
