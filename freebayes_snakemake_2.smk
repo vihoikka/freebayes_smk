@@ -37,13 +37,14 @@ rule GenerateFreebayesRegions:
     params:
         chroms = chroms,
         chunks = chunks,
+        region_size = 100,
         outfolder = output_folder + "/regions/genome"
     envmodules:
         "freebayes",
         "biokit"
     shell:
         """
-        python3 fasta_generate_regions.py {input.index} {params.chunks} --chunks --bed {params.outdir} --chromosome {params.chroms}
+        python3 fasta_generate_regions.py {input.index} {params.chunks} --chunks --bed {params.outfolder} --chromosome {params.chroms}
         """
 
 
