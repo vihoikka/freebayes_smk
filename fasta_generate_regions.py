@@ -48,9 +48,9 @@ if __name__ == "__main__":
                         help="List of chromosomes to create chunks for")
     parser.add_argument("--bed", metavar="base name", type=str,
                         help="Write chunks to individual bed files (for Snakemake) instead of stdout.")
-    parser.add_argument("--fai", metavar="<fasta or fai file>",
+    parser.add_argument("fai", metavar="<fasta or fai file>",
                         help="The fasta file to split. Must be indexed.")
-    parser.add_argument("--region_size", metavar="<N>", type=int,
+    parser.add_argument("region_size", metavar="<N>", type=int,
                         help="Region size")
 
     args = parser.parse_args()
