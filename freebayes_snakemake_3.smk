@@ -1,12 +1,4 @@
-## A simple example snakemake .smk file for parallelising freebayes
-## Uses a fasta_generate_regions to split the genome into regions of equal size based on the .fai index
-## As snakemake automatically moves each cpu core to the next genome chunk, this works out faster
-## than the freebayes-parallel wrapper.
-## This .smk file assumes we have a list of the bam files called bam.list
-## This .smk file splits the genome by chromosome, which of course, is not necessary.
-## One will want to edit the paths (for example, the path to bam files)
-
-# Example run command: snakemake --snakefile freebayes_snakemake.smk --configfile config_mtDNA.yaml --cores 8 --use-envmodules
+# Example run command: snakemake --snakefile freebayes_snakemake_2_local.smk --configfile config_mtDNA_min_min.yaml --cores 8
 
 path_prefix = "../"
 samples = config["samples"]
@@ -57,15 +49,15 @@ rule VariantCallingFreebayes:
         index = expand(samples_folder + "/{sample}.bam.bai", sample=samples),
         ref = reference,
         samples = bamlist,
-        regions = expand(output_folder + "/regions/genome.{chrom}.region.{i}.bed", chrom=chroms, i=chunks)
+        region = output_folder + "/regions/genome.{chrom}.region.{i}.bed"
     output:
         output_folder + "/results/variants/vcfs/{chrom}/variants.{i}.vcf"
     params:
         freebayes_path = freebayes_path
     log:
         "logs/VariantCallingFreebayes/{chrom}.{i}.log"
-    threads:1
-    shell:	"{params.freebayes_path} -f {input.ref} -t {input.regions} -L {input.samples} > {output} 2> {log}"
+    threads: 1
+    shell:	"{params.freebayes_path} -f {input.ref} -t {input.region} -L {input.samples} > {output} 2> {log}"
 
 
 rule ConcatVCFs:

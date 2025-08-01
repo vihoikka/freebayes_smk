@@ -6,6 +6,8 @@ output_folder: results_full_310725
 chunks_per_chrom: 20
 bam_list: bam.list
 
+freebayes_path: /projappl/project_2007833/freebayes_v1.3.10
+
 chroms:
   - chromosome_2
   - chromosome_3

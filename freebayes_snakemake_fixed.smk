@@ -6,7 +6,7 @@
 ## This .smk file splits the genome by chromosome, which of course, is not necessary.
 ## One will want to edit the paths (for example, the path to bam files)
 
-# Example run command: snakemake --snakefile freebayes_snakemake.smk --configfile config_mtDNA.yaml --cores 8 --use-envmodules
+# Example run command: snakemake --snakefile freebayes_snakemake.smk --configfile config_mtDNA.yaml --cores 60 --use-envmodules
 
 path_prefix = "../"
 samples = config["samples"]
@@ -57,7 +57,7 @@ rule VariantCallingFreebayes:
         index = expand(samples_folder + "/{sample}.bam.bai", sample=samples),
         ref = reference,
         samples = bamlist,
-        regions = expand(output_folder + "/regions/genome.{chrom}.region.{i}.bed", chrom=chroms, i=chunks)
+        region = output_folder + "/regions/genome.{chrom}.region.{i}.bed"
     output:
         output_folder + "/results/variants/vcfs/{chrom}/variants.{i}.vcf"
     params:
@@ -65,7 +65,7 @@ rule VariantCallingFreebayes:
     log:
         "logs/VariantCallingFreebayes/{chrom}.{i}.log"
     threads:1
-    shell:	"{params.freebayes_path} -f {input.ref} -t {input.regions} -L {input.samples} > {output} 2> {log}"
+    shell:	"{params.freebayes_path} -f {input.ref} -t {input.region} -L {input.samples} > {output} 2> {log}"
 
 
 rule ConcatVCFs:
